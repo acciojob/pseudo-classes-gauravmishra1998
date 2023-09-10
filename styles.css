@@ -1,4 +1,31 @@
 /*  your css code here. If applicable */
-:root{--maincolor:rgb(135, 206, 235);
+:root{background-color:rgb(135, 206, 235);
 }
-first-ch
+div.selector p:first-child{
+	background-color:black;
+	color:white;
+		}
+div.selector p:nth-child(2){
+	color:black;
+	}
+div.selector p:last-child{
+	color:red;
+	}
+li{width:50%;
+   padding:10px;
+	background-color:gray;
+}
+.first{
+	background-color:white;
+}
+#front{
+	font-size:22px;
+}
+#last{
+	font-size:22px;
+}
+#third{
+	background-color:pink;
+}
+
+
